@@ -1,0 +1,25 @@
+html, body { width: 100%; height: 100%; overflow-y: auto; }
+.App { width:100%; height: 100%; min-height: 100%!important; padding-top: 0; padding-bottom: 0; }
+.App-content { height: 100%; min-height: 100%!important; padding-top: var(--header-height); padding-bottom: 0; }
+.WelcomeHero { display: none!important; }
+.item-search { display: none!important; }
+.fof-upload-file-list .fof-file figure img.fof-file-image-preview { max-width: 70%; max-height: 70%; margin-top: 25%; margin-left: 15%; grid-area: initial!important; }
+.TextEditor-toolbar .Button--icon { width: 24px; }
+.TextEditor-controls .item-preview { display: none; }
+@media (max-width: 767.98px)
+{
+    li.item-minimize { display: none; }
+    li.item-close { display: inline-block!important; position: absolute!important; top: 0; z-index: 9999; }
+    li.item-close .Button--icon { width: 40px; padding: 13px; }
+    li.item-close .Button--icon .Button-icon { font-size: 20px; }
+}
+.Hero { margin: 0!important; }
+.Hero .container { padding: 0!important; }
+.DiscussionHero .item-title, .Hero-subtitle { margin: 0!important; }
+.DiscussionHero .item-tags { margin-top: 4px; }
+.DiscussionHero .TagsLabel .TagLabel.colored { margin: 0!important; }
+.ReplyPlaceholder { margin-top: 0; border: none; }
+.Post-header { margin-bottom: 0; }
+.Post.editing { top: 0; }
+p { margin: 0!important; }
+.Post-body { margin: 10px 0 10px 0!important; }
